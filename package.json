@@ -1,16 +1,16 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "catgit",
-  "title": "cat git cmd",
-  "description": "show git command",
+  "name": "gitusefulcmd",
+  "title": "Git Useful Cmd",
+  "description": "show git useful commands",
   "icon": "command-icon.png",
   "author": "ryokubozono",
   "license": "MIT",
   "commands": [
     {
       "name": "index",
-      "title": "Show git Cmd",
-      "description": "show git command",
+      "title": "Show Git Cmd",
+      "description": "show git commands",
       "mode": "view"
     }
   ],

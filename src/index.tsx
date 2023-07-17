@@ -1,7 +1,9 @@
 import { Detail } from "@raycast/api";
 
 export default function Command() {
-  return <Detail markdown="
+  return (
+    <Detail
+      markdown="
   ## ssh
   ```
   eval \`ssh-agent\`
@@ -87,5 +89,7 @@ export default function Command() {
   ```
   git push origin タグ名
   ```
-  " />;
+  "
+    />
+  );
 }
